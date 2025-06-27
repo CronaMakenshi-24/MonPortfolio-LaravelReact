@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.titleanime {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms infinite;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 620px;
+    }
+}
+
+@keyframes blinkTextCursor {
+    to {
+        border-right-color: transparent;
+    }
+}
+
+@media (max-width: 765px) {
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 320px;
+        }
+    }
+}
+
+@media (max-width: 639px) {
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+        to {
+            width: 220px;
+        }
+    }
+}

@@ -1,3 +1,12 @@
+<<<<<<< HEAD
+=======
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+>>>>>>> 99d387a (MonPortfolio)
 /vendor/
 node_modules/
 npm-debug.log
@@ -22,9 +31,13 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-/public/build
+
 /storage/pail
 .env.backup
 .env.production
 .phpactor.json
 auth.json
+/.fleet
+/.idea
+/.vscode
+
