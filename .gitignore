@@ -6,7 +6,6 @@
 /public/hot
 /public/storage
 /storage/*.key
->>>>>>> 99d387a (MonPortfolio)
 /vendor/
 node_modules/
 npm-debug.log
@@ -31,7 +30,6 @@ Homestead.json
 /.vagrant
 .phpunit.result.cache
 
-
 /storage/pail
 .env.backup
 .env.production
@@ -40,4 +38,4 @@ auth.json
 /.fleet
 /.idea
 /.vscode
-
+>>>>>>> 99d387a (MonPortfolio)
